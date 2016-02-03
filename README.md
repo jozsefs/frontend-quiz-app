@@ -1,4 +1,7 @@
 Frontend quiz
 =============
 
-A randomly chosen set from a collected list of questions in the FrontEnd field.
+A randomly chosen set from a collected list of questions in the Frontend field.
+
+- [ ] Testing checkboxes in readme
+- [x] See above
