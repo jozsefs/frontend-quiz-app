@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --recursive test/**/*.js"
+    "lint": "eslint test/** src/**",
+    "test": "npm run lint && mocha --compilers js:babel-core/register --recursive test/**/*.js"
   },
   "keywords": [],
   "author": "Jozsef Suba",
@@ -26,6 +27,9 @@
     "babel-preset-react": "^6.3.13",
     "chai": "^3.5.0",
     "enzyme": "^1.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.16.1",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
     "sinon": "^1.17.3",
