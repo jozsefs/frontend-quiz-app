@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 
-describe('test testing', () => {
-  it('the test runs...', () => {
+describe('testing the test framework', () => {
+  it('runs...', () => {
     expect(0).to.be.equal(0);
   });
 });
