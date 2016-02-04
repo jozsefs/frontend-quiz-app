@@ -7,6 +7,12 @@ A randomly chosen set from a collected list of questions in the Frontend field.
 $ npm i && npm run test
 ```
 
+To use webpack dev server (with hot reload)
+
+```sh
+$ npm run dev-server
+```
+
 TODO:
 
 - [ ] Add packages for client side
