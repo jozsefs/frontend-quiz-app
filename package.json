@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --config webpack.config.prod.js",
-    "dev-server": "node webpack-dev-server",
     "lint": "eslint test/** src/**",
-    "start": "npm run dev-server",
+    "start": "nnode webpack-dev-server",
     "test": "npm run lint && mocha --compilers js:babel-core/register --recursive src/**/__tests__/*"
   },
   "keywords": [],
