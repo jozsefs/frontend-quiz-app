@@ -4,13 +4,13 @@ Frontend quiz
 A randomly chosen set from a collected list of questions in the Frontend field.
 
 ```sh
-$ npm i && npm run test
+$ npm i && npm test
 ```
 
-To use webpack dev server (with hot reload)
+To use webpack dev server (with hot reload) on http://localhost:3000
 
 ```sh
-$ npm run dev-server
+$ npm start
 ```
 
 TODO:

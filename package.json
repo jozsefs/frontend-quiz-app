@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack -p --config webpack.config.prod.js",
     "lint": "eslint test/** src/**",
-    "start": "nnode webpack-dev-server",
+    "start": "node webpack-dev-server",
     "test": "npm run lint && mocha --compilers js:babel-core/register --recursive src/**/__tests__/*"
   },
   "keywords": [],

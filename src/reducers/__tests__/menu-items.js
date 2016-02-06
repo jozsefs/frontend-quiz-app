@@ -25,7 +25,8 @@ describe('menu-items reducer', () => {
         payload: {
           pathname: '/'
         }
-      }), Immutable.fromJS([{
+      }),
+      Immutable.fromJS([{
         route: '/',
         isActive: true
       }]))
